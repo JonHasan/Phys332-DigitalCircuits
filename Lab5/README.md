@@ -42,3 +42,5 @@ f is equal to 1 when A > B
 
 g is equal to 1 when B < A 
 
+![KarnuaghMap](KarnaughMap.PNG)
+
