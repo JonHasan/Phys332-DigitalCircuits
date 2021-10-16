@@ -42,5 +42,11 @@ f is equal to 1 when A > B
 
 g is equal to 1 when B < A 
 
+The karnaugh map that shows the results of the above logic is shown below 
+
 ![KarnuaghMap](KarnaughMap.PNG)
+
+To replicate the results, follow the instructions in the attached word document. 
+
+
 
