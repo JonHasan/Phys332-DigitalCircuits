@@ -50,8 +50,10 @@ assign LED[2] = g;
 
 //Law of complementarity present would yield a permanent 1. This is incorrect. 
 // Need to apply tilde to each unique entry. 
-assign e = (~a1&~a0&~b1&b~0)) | (a1&a0&b1&b0) | (~a1&a0&~b1&b0) | (a1&~a0&b1&~b0);
-//assign f = ~a1 + a0*~(b1*b0) + a1*b1; 
-//assign g = ~a1*b1 + ~a1*b1*~b0 + a1*~a0*b1*b0+~(a1*a0*b1)*b0; 
+assign e = (~a1&~a0&~b1&~b0) | (a1&a0&b1&b0) | (~a1&a0&~b1&b0) | (a1&~a0&b1&~b0);
+
+assign f = a1&~b1 | a1&a0&b1&~b0 | ~a1&a0&~b1&~b0;
+
+assign g = ~a1&b1 | ~a1&~a0&~b1&b0 | a1&~a0&b1&b0; 
 
 endmodule 
