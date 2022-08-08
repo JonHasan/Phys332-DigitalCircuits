@@ -10,3 +10,7 @@ It was desired to make a 2x2-bit input and three output digital comparator. Ther
 ## Lab 6: 7 Segment Driver 
 
 Goals of the lab were to use verilog to code a Nexys board that will output a certain number depending on what switches are activated. 
+
+## Lab 7: Clocks 
+
+Goals of the lab were to use the 100 MHz clock on the Nexys board to solve problems. 
